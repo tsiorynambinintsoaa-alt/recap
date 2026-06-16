@@ -1,34 +1,45 @@
-# Générateur Multi-Clients - Rapports de Production
+# 🧵 Générateur de Rapports de Production – Artisanat Raphia
 
-Outil d'automatisation pour générer les récapitulatifs de production par client à partir du fichier SUIVI.
+Cet outil automatise la génération de récapitulatifs de production par client à partir d'un fichier Excel de suivi. Il est spécialement conçu pour le suivi de la production artisanale (articles en raphia), permettant d'exporter les données sous formes de fichiers **Excel mis en forme** et de **rapports HTML interactifs**.
 
-## Fonctionnalités principales
+---
 
-- Traitement de plusieurs clients en une seule fois
-- Génération d'un fichier Excel bien structuré et mis en forme automatiquement
-- Création d'un fichier HTML avec des graphiques interactifs (barres empilées, KPIs, mode sombre/clair)
-- Interface graphique simple et intuitive
-- Journal d'activité en temps réel
+## 🚀 Fonctionnalités principales
 
-## Feuilles Excel générées
+* **Traitement de masse :** Gestion de plusieurs clients simultanément en une seule exécution.
+* **Exports Excel automatisés :** Génération de classeurs structurés, nettoyés et mis en forme de manière professionnelle.
+* **Tableaux de bord HTML interactifs :** Visualisation dynamique avec graphiques (barres empilées), indicateurs clés de performance (KPIs) et bascule entre mode sombre et mode clair.
+* **Interface Graphique (GUI) :** Prise en main simple, intuitive et accessible à tous les utilisateurs.
+* **Suivi en direct :** Journal d'activité (logs) intégré pour suivre l'avancement des tâches en temps réel.
 
-- RECAP GLOBAL (avec total général)
-- A et ST
-- RAMASSAGE PAR JOUR / SEMAINE / MOIS
-- RAMASSAGE PAR MODELES
-- DISPATCH
-- RAMASSAGE PAR PRESTATAIRE
-- STATS_TEMPS
-- TIMING PAR MODELE
+---
 
-## Prérequis
+## 📊 Structure des Feuilles Excel Générées
+L'outil génère un fichier complet pour chaque client, comprenant les onglets suivants :
 
-- Python 3.8 ou supérieur
-- Bibliothèques : pandas, openpyxl, ttkbootstrap
+| Nom de la feuille | Description |
+| :--- | :--- |
+| **RECAP GLOBAL** | Vue d'ensemble avec totaux généraux : quantités commandées, dispatchées, livrées, reste à dispatcher et reste à livrer. |
+| **A et ST** | Analyse fine de la production répartie entre l'**A**telier principal et la **S**ous-**T**raitance. |
+| **RAMASSAGE TEMP** | Suivi chronologique des ramassages triés par jour, semaine et mois (ventilé par chef de table en atelier et par sous-traitant). |
+| **RAMASSAGE MODELES**| Analyse quotidienne des volumes de ramassage détaillés par modèle de produit. |
+| **DISPATCH** | Suivi de la distribution et de l'affectation des pièces. |
+| **RAMASSAGE PRESTATAIRE**| Suivi individuel par artisan : pièces livrées et solde restant à dispatcher. |
+| **TIMING PAR MODELE** | Analyse de la performance et du temps de fabrication par pièce (calcul des moyennes et médianes). |
 
-## Installation
+---
 
-1. Installer les dépendances :
+## 🛠️ Prérequis
+
+* **Python :** Version 3.8 ou supérieure.
+* **Bibliothèques requises :** `pandas`, `openpyxl`, `ttkbootstrap`
+
+---
+
+## 📦 Installation & Configuration
+
+1. Téléchargez ou clonez les fichiers du projet.
+2. Installez les dépendances nécessaires via votre terminal :
 
 ```bash
 pip install pandas openpyxl ttkbootstrap
