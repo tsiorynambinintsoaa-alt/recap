@@ -24,7 +24,7 @@ L'outil génère un fichier complet pour chaque client, comprenant les onglets s
 | **RAMASSAGE TEMP** | Suivi chronologique des ramassages triés par jour, semaine et mois (ventilé par chef de table en atelier et par sous-traitant). |
 | **RAMASSAGE MODELES**| Analyse quotidienne des volumes de ramassage détaillés par modèle de produit. |
 | **DISPATCH** | Suivi de la distribution et de l'affectation des pièces. |
-| **RAMASSAGE PRESTATAIRE**| Suivi individuel par artisan : pièces livrées et solde restant à dispatcher. |
+| **RAMASSAGE PRESTATAIRE**| Suivi individuel par artisan : pièces livrées et reste à livrer. |
 | **TIMING PAR MODELE** | Analyse de la performance et du temps de fabrication par pièce (calcul des moyennes et médianes). |
 
 ---
