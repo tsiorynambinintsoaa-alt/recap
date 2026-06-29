@@ -19,7 +19,7 @@ Cet outil automatise la génération de récapitulatifs de production par client
 ## 📊 Rapport Excel généré
 
 <p align="center">
-  <img src="images/fichier EXCEL.png" alt="Rapport Excel" width="100%">
+  <img src="images/fichier_excel.png" alt="Rapport Excel" width="100%">
 </p>
 
 Le fichier Excel contient un récapitulatif complet de la production avec plusieurs feuilles d'analyse, des tableaux formatés automatiquement et des indicateurs de suivi.
@@ -29,7 +29,7 @@ Le fichier Excel contient un récapitulatif complet de la production avec plusie
 ## 🌐 Tableau de bord HTML interactif
 
 <p align="center">
-  <img src="images/fichier HTML.png" alt="Dashboard HTML" width="100%">
+  <img src="images/fichier_html.png" alt="Dashboard HTML" width="100%">
 </p>
 
 Le tableau de bord HTML permet de visualiser les indicateurs clés de production grâce à des graphiques interactifs, des cartes KPI et une interface moderne avec mode clair/sombre.
