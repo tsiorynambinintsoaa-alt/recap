@@ -19,7 +19,7 @@ Cet outil automatise la génération de récapitulatifs de production par client
 ## 📊 Rapport Excel généré
 
 <p align="center">
-  <img src="images/fichier_excel.png" alt="Rapport Excel" width="100%">
+  <img src="images/fichier_excel.PNG" alt="Rapport Excel" width="100%">
 </p>
 
 Le fichier Excel contient un récapitulatif complet de la production avec plusieurs feuilles d'analyse, des tableaux formatés automatiquement et des indicateurs de suivi.
